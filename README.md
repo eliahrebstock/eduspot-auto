@@ -2,7 +2,7 @@
 
 Connection script to log faster to eduspot captive portal with GET and POST requests to the right urls. Actually the script works only at ENSIIE (computer science school).
 
-## Dependancies ##
+## Dependencies ##
 
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 * [requests](http://docs.python-requests.org/en/master/)

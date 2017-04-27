@@ -1,8 +1,8 @@
 # Script de connexion automatique à ensiie (et eduspot) - ENSIIE #
 
-Script de connexion rapide au portail captif de eduspot en envoyant
-des requêtes GET et POST aux bonnes urls. Ce script gère uniquement la
-connexion dans le cadre de l'ENSIIE.
+Script de connexion rapide au portail captif ~~eduspot~~ ensiie en
+envoyant des requêtes GET et POST aux bonnes urls. Ce script gère
+uniquement la connexion dans le cadre de l'ENSIIE.
 
 ## Dépendances ##
 

@@ -28,7 +28,6 @@ def connect(username, password):
         # Ask for password if not given in parameter
         if not password:
             password = getpass.getpass('Entrez votre mot de passe ENSIIE : ')
-
         # Authentication to ENSIIE CAS
         payload = {'user': username, 'password': password}
         j = s.post('https://opnsense.ensiie.fr:8000/api/captiveportal/access/logon/0/', data=payload, verify=False)
@@ -36,6 +35,8 @@ def connect(username, password):
         if response['clientState'] == 'AUTHORIZED':
             time.sleep(10)
             break
+        else:
+            password = ''
 
     # Finally, make a test with a classic test website
     print('Vérification de la connexion')
